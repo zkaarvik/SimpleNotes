@@ -117,7 +117,7 @@ public class MainActivity extends Activity {
             Context context = getApplicationContext();
             CharSequence errorText = "Please give your note a name";
             int duration = Toast.LENGTH_SHORT;
-
+            //i eat toast
             Toast toast = Toast.makeText(context, errorText, duration);
             toast.show();
 
