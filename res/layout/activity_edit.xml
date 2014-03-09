@@ -16,7 +16,7 @@
         android:inputType="textMultiLine"
         android:hint="@string/edit_activity_content_hint"
         android:gravity="top"
-        android:background="@android:drawable/divider_horizontal_dim_dark"
+        android:background="@android:color/transparent"
          />
         <!--probably remove background tag-->
 

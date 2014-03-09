@@ -17,7 +17,8 @@ public class EntryDataSource {
     // Database fields
     private SQLiteDatabase database;
     private EntryDB dbHelper;
-    private String[] allColumns = { EntryDB.COLUMN_ID,
+    private String[] allColumns = {
+            EntryDB.COLUMN_ID,
             EntryDB.COLUMN_NAME,
             EntryDB.COLUMN_CONTENT};
 
